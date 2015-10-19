@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nstruts", "nstruts.csproj", "{67C15BDA-BE8A-412A-BB48-556095B606D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nstrutsweb", "http://localhost/nstruts/nstrutsweb.csproj", "{05B28E05-8D0C-4702-8267-4AC801835F6C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{67C15BDA-BE8A-412A-BB48-556095B606D5}.Debug.ActiveCfg = Debug|.NET
+		{67C15BDA-BE8A-412A-BB48-556095B606D5}.Debug.Build.0 = Debug|.NET
+		{67C15BDA-BE8A-412A-BB48-556095B606D5}.Release.ActiveCfg = Release|.NET
+		{67C15BDA-BE8A-412A-BB48-556095B606D5}.Release.Build.0 = Release|.NET
+		{05B28E05-8D0C-4702-8267-4AC801835F6C}.Debug.ActiveCfg = Debug|.NET
+		{05B28E05-8D0C-4702-8267-4AC801835F6C}.Debug.Build.0 = Debug|.NET
+		{05B28E05-8D0C-4702-8267-4AC801835F6C}.Release.ActiveCfg = Release|.NET
+		{05B28E05-8D0C-4702-8267-4AC801835F6C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
