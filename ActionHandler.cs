@@ -30,7 +30,9 @@ namespace nstruts
 
 		public ActionHandler()
 		{
-			configurator = (ActionHandlerConfigurator)ConfigurationSettings.GetConfig( SECTION_NAME );
+            configurator = (ActionHandlerConfigurator)System.Web.Configuration.WebConfigurationManager.GetSection(SECTION_NAME);
+
+			//configurator = (ActionHandlerConfigurator)ConfigurationSettings.GetConfig( SECTION_NAME );
 
 		}
 
